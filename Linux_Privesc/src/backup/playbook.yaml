@@ -1,0 +1,7 @@
+---
+# TODO: Check if this works
+- name: My playbook
+  hosts: all
+  tasks:       
+        - name: my first playbook
+          command: "/usr/bin/echo hello world"

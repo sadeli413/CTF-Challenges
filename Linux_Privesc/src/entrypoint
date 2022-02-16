@@ -1,0 +1,6 @@
+#!/bin/sh
+
+/usr/sbin/service ssh restart && \
+/usr/sbin/service cron restart
+
+/usr/bin/tail -F /entrypoint
