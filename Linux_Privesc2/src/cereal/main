@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+from tabulate import tabulate
+from yaml import load, Loader
+
+with open("/opt/cereal/cereal.yaml", "r") as fp:
+    # TODO: I should probably use a `FullLoader` instead of a regular `Loader`
+    mylist = load(fp.read(), Loader=Loader)
+
+with open("/opt/cereal/output.txt", "w") as fp:
+    fp.write(tabulate(mylist))
