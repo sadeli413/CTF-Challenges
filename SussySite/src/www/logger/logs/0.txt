@@ -1,0 +1,24 @@
+*tayari has joined the chat*
+*bash has joined the chat*
+
+tayari: @bash did you see @sadeli's Sussy API?
+bash: Yeah, you don't need a password to access it anymore, but the old login had hard-coded creds.
+tayari: B R U H
+
+*sadeli has joined the chat*
+
+tayari: @sadeli did you actually use a straight up hard-coded password??
+sadeli: Yeah, I don't actually know how to do proper authentication.
+bash: btw, where is the old version? I wanna check it out for... reasons.
+sadeli: It's in /var/backups/api.tar.gz
+bash: Cool, I'll check it out
+
+*bash has left the chat*
+
+sadeli: Wait wait, don't look at it!
+
+*sadeli has left the chat*
+
+tayari: sus
+
+*tayari has left the chat*

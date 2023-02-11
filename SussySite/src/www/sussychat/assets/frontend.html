@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- https://github.com/tailwindtoolbox/Ghostwind -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SUSSY AF FRONTEND</title>
+
+    <link rel="stylesheet" href="/styles/style.css"/>
+		
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+<!--Header-->
+<div class="w-full m-0 p-0 bg-cover bg-bottom content-center" style="height: 40vh; max-height:360px;">
+    <!--Title-->
+    <div class="container max-w-4xl mx-auto pt-16 md:pt-20 text-center break-normal">
+        <div class="items-center text-blue-400 no-underline hover:no-underline font-extrabold text-3xl md:text-5xl">
+          SUSSY API FRONTEND 
+        </div>
+        <!-- <p class="text-xl md:text-2xl text-gray-500">Press the button for sus!</p> -->
+
+        <div class="py-6 pb-6 lg:pb-0 fade-in space-x-4">
+            <form action="" method="POST">
+                <div>
+                    <button name="sussyAPI" value="http://127.0.0.1:81/api" class="bg-sky-300 hover:bg-sky-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                      <img class="fill-current w-7 h-7 mr-1" src="/images/neko_arc_face.jpg">
+                        <span>Press the button for sus!</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Image-->
+<div class="container px-4 md:px-0 max-w-xl mx-auto -mt-32 bg-gray-200 w-full leading-normal rounded-t">
+    <img src="{{ .image }}" class="h-full w-full shadow">
+</div>
+
+<div style="height: 30vh; max-height:60px;"></div>
+</body>
+</html>
